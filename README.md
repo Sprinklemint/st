@@ -1,6 +1,6 @@
-# st (Simple Terminal)
+# st (Suckless Terminal)
 
-This is a custom suckless st build (credits to lukesmith's build for ligatures patch) and I've added some additional patches like newterm , rightclick paste , desktop entry ,sixel, live-reload xresources , dynamic cursor etc!.
+This is a custom suckless st build and I've added some additional patches like newterm , rightclick paste , desktop entry ,sixel, live-reload xresources , dynamic cursor etc!.
 
 ## Patches:
 
@@ -12,6 +12,7 @@ This is a custom suckless st build (credits to lukesmith's build for ligatures p
 - Alpha(Transparency)
 - Boxdraw
 - w3m
+- patch_column ( doesnt cut text while resizing)
 - font2
 - right click paste
 - st desktop entry
@@ -114,3 +115,4 @@ a lil<a href="https://share.vidyard.com/watch/sdFeoxaRr124U893WVEcxN?"> video </
 # Credits
 
 - [live-reload](https://github.com/nimaipatel/st) 
+- [patch_column](https://github.com/nimaipatel/st/blob/master/patches/7672445bab01cb4e861651dc540566ac22e25812.diff)
